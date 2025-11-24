@@ -57,10 +57,21 @@ top_products = (
     .head(10)
 )
 
-plt.figure(figsize=(12, 6))
-sns.barplot(x=top_products.values, y=top_products.index)
-plt.title("Top 10 Products by Total Sales")
-plt.xlabel("Total Sales")
-plt.ylabel("Product Name")
+plt.figure(figsize=(14, 7))
+sns.set_style("whitegrid")
+
+sns.barplot(
+    x=top_products.values,
+    y=top_products.index,
+    palette="viridis"    # better colors
+)
+
+plt.title("Top 10 Products by Total Sales", fontsize=18, weight='bold')
+plt.xlabel("Total Sales", fontsize=14)
+plt.ylabel("Product Name", fontsize=14)
+
+plt.xticks(fontsize=12)
+plt.yticks(fontsize=12)
+
 plt.tight_layout()
 plt.show()
