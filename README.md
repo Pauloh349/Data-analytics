@@ -100,9 +100,4 @@ pip install -r requirements.txt
 - `question1/cleanSales_final.csv` (created by `sales.py` when run)
 - Plot files created by scripts: `Movies.png`, `Corr.png`, `CrimeArea.png`, `Time.png`, `Correlation.png`, `Strongest.png` (in respective folders or working dir)
 
-**Next suggested steps**
-- Add `requirements.txt` and a short `README.md` with per-question run instructions.
-- Add small CLI wrappers (or notebook examples) that save outputs to `outputs/` and support `--save-plots` and `--save-cleaned-data` flags.
-
 ---
-Report generated programmatically by code inspection on current workspace.
