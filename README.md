@@ -5,8 +5,6 @@
 This repository contains five independent data analysis tasks, each stored in its own folder (`question1` … `question5`).
 The work includes data cleaning, exploratory analysis, simple modeling, and visualization.
 
-A full project summary is also saved in the root as **`QUESTION_SUMMARY_REPORT.md`**.
-
 ---
 
 ## **📁 Project Structure**
@@ -176,16 +174,7 @@ The project mainly uses:
 * seaborn
 * scikit-learn (Question 2)
 
-Add these to a **requirements.txt** to improve reproducibility.
-
 ### **Reproducibility**
-
-Consider adding:
-
-* A top-level `README.md` (this file)
-* An `outputs/` folder for all plots and cleaned files
-* Clear run instructions for each script
-* Optional Jupyter notebooks for extended analysis
 
 ### **Input Validation**
 
